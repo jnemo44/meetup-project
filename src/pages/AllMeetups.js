@@ -1,5 +1,4 @@
-function AllMeetups () {
-
+function AllMeetupsPage () {
     return(
         <div>
             AllMeetups
@@ -7,4 +6,4 @@ function AllMeetups () {
     );
 }
 
-export default AllMeetups;
+export default AllMeetupsPage;

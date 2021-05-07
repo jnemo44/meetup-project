@@ -1,5 +1,4 @@
 function FavoritesPage () {
-
     return(
         <div>
             Favorites
