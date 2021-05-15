@@ -29,6 +29,7 @@ function NewMeetupForm(props) {
 
     // Send data to 
     props.onAddMeetup(meetupData)
+    console.log(meetupData)
   }
 
   return (
