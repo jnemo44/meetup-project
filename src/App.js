@@ -5,6 +5,7 @@ import FavoritesPage from "./pages/Favorites";
 import NewMeetupPage from "./pages/NewMeetup";
 import Layout from "./components/layout/Layout";
 
+
 function App() {
   // localhost:3000/
   return (

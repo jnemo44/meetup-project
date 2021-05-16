@@ -10,7 +10,7 @@ function AllMeetupsPage() {
   const [loadedMeetups, setLoadedMeetups] = useState([]);
 
   // useEffect Places restrictions on when something is run. Without it fetch in this component
-  // would cause an infinite loop. [] specify when to execute the code. In this case it will only run once
+  // would cause an infinite loop. [] specify when to execute the code. In this case (default) it will only run once
   // when component is loaded.
   useEffect(() => {
     setIsLoading(true);
